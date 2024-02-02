@@ -30,7 +30,7 @@ const slides = [
 const content = [
   {
     title: "KDPIT",
-    description: "WELCOME TO KDPIT DEPARTMENT",
+    description: "WELCOME TO KDPIT",
     button: "Apply Now",
     image: img1,
     user: "Luan Gjokaj",

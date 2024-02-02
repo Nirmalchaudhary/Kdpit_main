@@ -39,16 +39,17 @@ const Header = () => {
               <ul className={`links `}>
                 <li
                   className={`link green-text`}
-                  onMouseOver={() => {
-                    document.getElementById("Academics").style.display = "grid";
-                    setActiveLink("Academics");
-                  }}
-                  onMouseOut={() => {
-                    document.getElementById("Academics").style.display = "none";
-                  }}
+                  // onMouseOver={() => {
+                  //   document.getElementById("Academics").style.display = "grid";
+                  //   setActiveLink("Academics");
+                  // }}
+                  // onMouseOut={() => {
+                  //   document.getElementById("Academics").style.display = "none";
+                  // }}
                 >
                   <Link
-                    to=""
+                    to="files\EVEN-SEM_BTech_IT_Booklet_2023-24.pdf"
+                    target="_blank"
                     className={`${
                       activeLink === "Academics" ? "green-text" : "green"
                     }`}
@@ -104,7 +105,7 @@ const Header = () => {
                 >
                   <Link
                     id="KnowCHARUSAT-link"
-                    to=""
+                    to="https://admission.charusat.ac.in/"
                     className={`${
                       activeLink === "KnowCHARUSAT" ? "green-text" : "green"
                     }`}
@@ -115,7 +116,7 @@ const Header = () => {
               </ul>
             </div>
           </nav>
-          <div
+          {/* <div
             className="menu-4"
             id="Academics"
             onMouseOver={() => {
@@ -235,18 +236,25 @@ const Header = () => {
             >
               <h5 className="menu-head">Syllabus</h5>
             </Link>
-          </div>
+          </div> */}
 
           <div
             className="menu"
             id="Admission"
+            onMouseOver={() => {
+              document.getElementById("Admission").style.display = "grid";
+              setActiveLink("Admission");
+            }}
+            onMouseOut={() => {
+              document.getElementById("Admission").style.display = "none";
+              setActiveLink("");
+            }}
           >
-            <div className="menu-div">
-              <h5 className="menu-head">Research Labs</h5>
-              <h5 className="menu-head">Academic Calendar</h5>
-              <h5 className="menu-head">E-Covernance</h5>
-              <h5 className="menu-head">BTech Booklet</h5>
-              <h5 className="menu-head">Exam Result</h5>
+           <div className="menu-div">
+              {/* <Link to=""><h5 className="/research">Research Labs</h5></Link> */}
+             <Link to="files\ODD-SEM-BTech-Academic-Calendar-2023-24-(June - Nov).pdf"> <h5 className="menu-head">Academic Calendar</h5></Link>
+              <Link to="https://charusat.edu.in:912/eGovernance/"><h5 className="menu-head">E-Covernance</h5></Link>
+              <Link to="https://charusat.edu.in:912/UniExamResult/"><h5 className="menu-head">Exam Result</h5></Link>
             </div>
           </div>
           <div
@@ -417,7 +425,6 @@ const Header = () => {
           >
             <div className="menu-div">
               <h5 className="menu-head">unit Test Time-table</h5>
-              
             </div>
             
             

@@ -27,23 +27,23 @@ const addressList = [
 const socialList = [
   {
     iconName: "icofont-facebook",
-    siteLink: "https://www.facebook.com/thecharusat/",
+    siteLink: "",
     className: "facebook",
   },
   {
     iconName: "icofont-twitter",
-    siteLink: "https://twitter.com/thecharusat?lang=en",
+    siteLink: "",
     className: "twitter",
   },
   {
     iconName: "icofont-linkedin",
     siteLink:
-      "https://www.linkedin.com/school/charotar-university-of-science-&-technology-charusat-",
+      "",
     className: "linkedin",
   },
   {
     iconName: "icofont-instagram",
-    siteLink: "https://www.instagram.com/thecharusat/?hl=en",
+    siteLink: "",
     className: "instagram",
   },
   // {
@@ -99,29 +99,6 @@ const quickList = [
   {
     text: "Downloads",
     link: "https://charusat.ac.in/Downloads/",
-  },
-  {
-    text: "Careers",
-    link: "./careers",
-  },
-  {
-    text: "Alumni Portal",
-    link: "https://charusatalumni.org/",
-  },
-  {
-    text: "Donations",
-    link: "./donation",
-  },
-  {
-    text: "The Act & First Statutes",
-  },
-  {
-    text: "Policies and Procedures - Support Facilities",
-    link: "./policies_terms",
-  },
-  {
-    text: "Code of Conduct",
-    link: "./code-of-conduct",
   },
 ];
 
@@ -208,37 +185,7 @@ const FooterThree = () => {
                                 </a>
                               </li>
                             ))}
-                            <li style={{ color: "#fff" }}>
-                              NAD/ABC Videos --
-                              <a
-                                href="https://charusat-aqar.s3.ap-south-1.amazonaws.com/charusat/nad/1.mp4"
-                                target="_blank"
-                                style={{ color: "#fff" }}
-                              >
-                                1
-                              </a>{" "}
-                              <a
-                                href="https://charusat-aqar.s3.ap-south-1.amazonaws.com/charusat/nad/2.mp4"
-                                target="_blank"
-                                style={{ color: "#fff" }}
-                              >
-                                2
-                              </a>{" "}
-                              <a
-                                href="https://charusat-aqar.s3.ap-south-1.amazonaws.com/charusat/nad/3.mp4"
-                                target="_blank"
-                                style={{ color: "#fff" }}
-                              >
-                                3
-                              </a>{" "}
-                              <a
-                                href="https://charusat-aqar.s3.ap-south-1.amazonaws.com/charusat/nad/4.mp4"
-                                target="_blank"
-                                style={{ color: "#fff" }}
-                              >
-                                4
-                              </a>{" "}
-                            </li>
+                           
                           </ul>
                         </div>
                       </div>

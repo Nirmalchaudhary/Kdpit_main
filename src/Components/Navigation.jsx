@@ -25,7 +25,7 @@ const Header = () => {
         >
           <nav className="nav">
             <div className="logo">
-              <Link to="./home" className="charusat-main">
+              <Link to="/" className="charusat-main">
                 <img
                   src={logo}
                   alt="CHARUSAT"
@@ -252,7 +252,8 @@ const Header = () => {
           >
            <div className="menu-div">
               {/* <Link to=""><h5 className="/research">Research Labs</h5></Link> */}
-             <Link to="files\ODD-SEM-BTech-Academic-Calendar-2023-24-(June - Nov).pdf"> <h5 className="menu-head">Academic Calendar</h5></Link>
+             <Link to="files\Academic_Calendar.pdf"
+                    target="_blank"> <h5 className="menu-head">Academic Calendar</h5></Link>
               <Link to="https://charusat.edu.in:912/eGovernance/"><h5 className="menu-head">E-Covernance</h5></Link>
               <Link to="https://charusat.edu.in:912/UniExamResult/"><h5 className="menu-head">Exam Result</h5></Link>
             </div>

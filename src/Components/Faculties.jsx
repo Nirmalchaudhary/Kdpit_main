@@ -76,8 +76,8 @@ export default function Faculties() {
       <div className="container">
         <h2 className="title text-center mb-5 mt-5">{title}</h2>
 
-        <div className="section-wrapper">
-          <div className="card-main">
+        <div className="section-wrapper ">
+          <div className="card-main clubs_main">
             {items.map((elem) => {
               const {
                 id,

@@ -185,3 +185,22 @@ align-items: center;}
   .menu a{
     text-decoration: none;
   }
+
+  @media(max-width :1525px){
+    .shape1{
+      display: none;
+    }
+    .video1{
+      background-image: none;
+      margin-bottom: 320px;
+      margin-top: -80px;
+    }
+  }
+  @media(max-width :993px){
+    .clubs_main{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+    }
+  }
+
+ 
